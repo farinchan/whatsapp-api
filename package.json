@@ -1,0 +1,53 @@
+{
+  
+  "name": "whatsapp-api-gateway",
+  
+  "version": "1.0.0",
+  
+  "description": "Whatasapp api by fajri",
+  
+  "main": "app.js",
+  
+  "scripts": {
+  
+    
+  "start": "node app",
+  
+    
+  "test": "echo \"Error: no test specified\" && exit 1"
+  
+  },
+  
+  "keywords": [
+  
+    
+  "whatsapp"
+  
+  ],
+  
+  "author": "Fajri Rinaldi Chan",
+  
+  "license": "ISC",
+  
+  "dependencies": {
+  
+    
+  "body-parser": "^1.20.2",
+  
+    
+  "dotenv": "^16.3.1",
+  
+    
+  "mysql2": "^3.5.1",
+  
+    
+  "qrcode-terminal": "^0.12.0",
+  
+    
+  "sequelize": "^6.32.1",
+  
+    
+  "whatsapp-web.js": "^1.21.0"
+  
+  }
+}
