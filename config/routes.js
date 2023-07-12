@@ -1,4 +1,7 @@
 //routes
+const router = require("express").Router()
 const controller = require("../controller/index")
 
-router.get('/example', tokenValidate, controller.example.test);
+router.get('/sendtext', controller.message.sendMessageText);
+
+module.exports = router
